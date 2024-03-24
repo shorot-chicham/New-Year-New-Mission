@@ -128,3 +128,35 @@ header{
     border: none;
     color: #fff;
 }
+
+/* date container styles  */
+
+.date-container{
+    background: linear-gradient(#FF000019, #ffffff);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 4rem;
+    margin-bottom: 4rem;
+}
+
+.date-type{
+    color: #FF0000;
+}
+
+.date-content p{
+    font-family: var(--inter-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.date-btn{
+    background-color: #FF0000;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+    font-family: var(--inter-font);
+    font-weight: 700;
+}
