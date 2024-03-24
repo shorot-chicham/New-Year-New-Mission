@@ -32,6 +32,7 @@ header{
     text-align: center;
     padding: 5rem;
     background: linear-gradient(#000, #fff2);
+    border-radius: 1rem;
 }
 
 .banner-sub-title{
@@ -80,4 +81,50 @@ header{
     width: 70%;
     height: auto;
     margin: auto;
+}
+
+/* midnight party container styles  */
+
+.midnight-party-container{
+    margin: 3rem 0rem 3rem;
+    background-image: url('/images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 1rem;
+}
+
+.midnight-party-content{
+    color: #fff;
+}
+
+.midnight-party{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    background: linear-gradient(to right, #000, #fff4);
+    border-radius: 1rem;
+}
+
+.midnight-party-image img{
+    width: 100%;
+}
+
+.midnight-party-title{
+    font-family: var(--merriWeather-font);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.midnight-party-desc{
+    color: #ffffffcc;
+    margin-bottom: 2rem;
+}
+
+.party-btn{
+    background-color: #000;
+    border: none;
+    color: #fff;
 }
