@@ -14,7 +14,7 @@
 :root{
     --merriWeather-font: "Merriweather", serif;
     --inter-font: "Inter", sans-serif;
-
+    --description-color: #07021199;
 }
 
 /* banner container styles  */
@@ -171,7 +171,7 @@ header{
 
 .coming-soon-desc{
     width: 90%;
-    color: #07021199;
+    color: var(--description-color);
     margin-top: 1rem;
 }
 
@@ -208,7 +208,7 @@ header{
 }
 
 .coming-soon-other-desc{
-    color: #07021199;
+    color: var(--description-color);
     margin: 1rem 0rem;
 }
 
@@ -251,8 +251,10 @@ header{
 }
 
 .holidays-desc{
-    color: #07021199;
+    color: var(--description-color);
     font-family: var(--inter-font);
+    width: 80%;
+    margin: auto;
 }
 
 .discount-img2{
@@ -271,4 +273,46 @@ header{
 
 .discount img{
     width: 200px;
+}
+
+/* Our Awesome Portfolio container styles  */
+
+.portfolio-container{
+    margin-bottom: 3rem;
+}
+
+.portfolio-desc{
+    color: var(--description-color);
+    width: 80%;
+    font-family: var(--inter-font);
+}
+
+.portfolio-title{
+    font-family: var(--merriWeather-font);
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 1rem 0rem;
+}
+
+.portfolio-sub-title{
+    font-family: var(--inter-font);
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.portfolio-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 2rem 0rem;
+}
+
+.portfolio-images img{
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 1px #07021199;
 }
