@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.hidden{
+    display: none;
+}
+
 .space{
     margin-right: 8%;
     margin-left: 8%;
@@ -310,8 +314,8 @@ header{
     margin: 2rem 0rem;
 }
 
-.portfolio-images img{
-    width: 100%;
+.image img{
+    width: 270px;
     border: none;
     border-radius: 1rem;
     box-shadow: 0px 0px 10px 1px #07021199;
@@ -351,6 +355,7 @@ header{
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     padding: 1rem;
+    width: 300px;
 }
 
 .subscribe-btn{
@@ -359,5 +364,50 @@ header{
     border-bottom-right-radius: 50px;
     background-color: #FF0000;
     padding: 1rem;
+    color: #fff;
+}
+
+/* footer container styles  */
+footer{
+    background-color: #070211;
+    color: #fff;
+}
+
+.footer-container{
+    padding: 4rem 0rem;
+}
+
+.footer-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.web, .phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-sites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.unsubscribe-btn{
+    border: none;
+    background-color: #070211;
     color: #fff;
 }
