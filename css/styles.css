@@ -6,8 +6,43 @@
     padding: 0;
 }
 
+.space{
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
 :root{
     --merriWeather-font: "Merriweather", serif;
     --inter-font: "Inter", sans-serif;
 
+}
+
+/* banner container styles  */
+
+header{
+    background-image: url('/images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 1rem 0rem 4rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.banner-container{
+    text-align: center;
+    padding: 5rem;
+    background: linear-gradient(#000, #fff2);
+}
+
+.banner-sub-title{
+    font-family: var(--merriWeather-font);
+    font-size: 2rem;
+    color: #fff;
+}
+
+.banner-title{
+    font-family: var(--merriWeather-font);
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 900;
 }
